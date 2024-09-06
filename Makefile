@@ -3,7 +3,7 @@ CXXFLAGS = -Wall -Wextra -std=c++17
 
 TARGET = main
 
-SOURCES = main.cpp h26xparsec.cpp
+SOURCES = main.cpp h26x_parser.cpp
 
 OBJECTS = $(SOURCES:.cpp=.o)
 
